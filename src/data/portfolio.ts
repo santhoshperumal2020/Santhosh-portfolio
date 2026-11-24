@@ -47,7 +47,7 @@ export const screenshots = [
  {src:"/screenshots/seo-search-visibility.png",title:"SEO · Search visibility",type:"SEO",detail:"Search visibility and related research screenshot from the report."},
 ];
 
-const insta = (id: string, kind: "reel" | "post" = "reel") => `https://www.instagram.com/${kind}/${id}/`;
+const insta = (id: string, kind: "reel" | "p" = "reel") => `https://www.instagram.com/${kind}/${id}/`;
 export const creativeGroups = [
  { company: "Merfish", description: "Admissions and clinical services marketing", items: [
    {url:insta("DT0WDvAkjJn"),type:"Reel"},{url:insta("DTu8x2zkiJ7"),type:"Reel"},{url:insta("DONimLJEgDo"),type:"Reel"},
